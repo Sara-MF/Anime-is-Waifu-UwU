@@ -1,0 +1,17 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.login_body {
+    background-image: url("/images/summer-girl-ice-cream.jpg");
+    background-repeat: no-repeat;
+}
+
+.login_card {
+    background-color: red;
+    width: 25rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+}
