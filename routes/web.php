@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ListController;
+use App\Http\Controllers\OthersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,4 +19,11 @@ Route::get('/', function () {
     return view('login');
 });
 
+// List watching, completed, empty list
+Route::get('/empty', [ListController::class, 'empty']);
+Route::get('/watching', [ListController::class, 'watching']);
+Route::get('/completed', [ListController::class, 'completed']);
 
+// Other
+Route::get('/thanks', [OthersController::class, 'thankful']);
+Route::get('/notFound', [OthersController::class, 'notFound']);

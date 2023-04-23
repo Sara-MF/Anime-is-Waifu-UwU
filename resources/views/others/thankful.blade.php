@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="login_body views">
+<html lang="en" class="thankful views">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +8,6 @@
     <title>Anime is Waifu UwU</title>
 </head>
 <body>
-    
-    @include("components.login-card")
-
+    <h1>Thanks for using my website ♡</h1>
 </body>
 </html>

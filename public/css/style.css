@@ -3,10 +3,35 @@ html {
     height: 100%;
 }
 
+.views {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Login */
+
 .login_body {
     background-image: url("/images/summer-girl-ice-cream.jpg");
-    background-repeat: no-repeat;
+    /* animation: changeBg 2s infinite; */
 }
+
+/* #mydiv{ width:143px; height:100px; } */
+/* 
+@keyframes changeBg {
+
+    0% {
+        background-image: url("/images/summer-girl-ice-cream.jpg");
+    }
+
+    50% {
+        background-image: url("/images/summer-girl.jpg");
+    }
+
+    100% {
+        background-image: url("/images/summer-girl-ice-cream.jpg");
+    }
+} */
 
 .login_card {
     background-color: red;
@@ -14,4 +39,28 @@ html {
     height: 30rem;
     display: flex;
     flex-direction: column;
+}
+
+/* Lists */
+
+.empty_list {
+    background-image: url("/images/girl-beach-sky-clouds.jpeg");
+}
+
+.watching_list {
+    background-image: url("/images/matsuri-girl.png");
+}
+
+.completed_list {
+    background-image: url("/images/maid-library.jpg");
+}
+
+/* Others */
+
+.not_found {
+    background-image: url("/images/dark-girl.jpg");
+}
+
+.thankful {
+    background-image: url("/images/thankful.jpg");
 }
