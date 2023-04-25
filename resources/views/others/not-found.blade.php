@@ -8,6 +8,6 @@
     <title>Anime is Waifu UwU</title>
 </head>
 <body>
-    <h1>Page Not Found</h1>
+    <h1 class="no-page">Page Not Found</h1>
 </body>
 </html>

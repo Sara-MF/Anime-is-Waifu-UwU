@@ -8,6 +8,9 @@
     <title>Anime is Waifu UwU</title>
 </head>
 <body>
-    <h1>Thanks for using my website ♡</h1>
+    <div class="thanks">
+        <span>Thanks for using</span><br>
+        <span>my website ♡</span>
+    </div>
 </body>
 </html>
