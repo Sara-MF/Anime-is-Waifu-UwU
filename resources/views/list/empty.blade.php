@@ -8,5 +8,8 @@
     <title>Anime is Waifu UwU</title>
 </head>
 <body>
+
+    @include("components.navbar")
+
 </body>
 </html>
