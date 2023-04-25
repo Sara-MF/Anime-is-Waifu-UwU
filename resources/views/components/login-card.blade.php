@@ -1,6 +1,7 @@
 <div class=login_card>
-    <input type="email" placeholder="E-mail">
-    <input type="text" placeholder="Senha">
-    <a href="/">Esqueceu a senha?</a>
-    <button>Entrar</button>
+    <h1 class="title">Anime is Waifu</h1>
+    <input type="email" class="input-login" placeholder="E-mail">
+    <input type="text" class="input-login" placeholder="Senha">
+    <a href="/" class="forget-password">Esqueceu a senha?</a>
+    <button class="login-button">Entrar</button>
 </div>

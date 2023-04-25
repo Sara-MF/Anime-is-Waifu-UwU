@@ -34,11 +34,38 @@ html {
 } */
 
 .login_card {
-    background-color: red;
-    width: 25rem;
+    background-color: rgb(233, 159, 225);
+    width: 30rem;
     height: 30rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+
+.title {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.input-login {
+    width: 25rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.forget-password {
+    padding-bottom: 2rem;
+}
+
+.login-button {
+    width: 10rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 /* Lists */
