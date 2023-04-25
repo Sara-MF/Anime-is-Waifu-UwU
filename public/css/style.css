@@ -3,10 +3,29 @@ html {
     height: 100%;
 }
 
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
 .views {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.nav {
+    width: 100%;
+    height: 5rem;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 /* Login */
@@ -53,9 +72,12 @@ html {
 .input-login {
     width: 25rem;
     height: 2rem;
+    outline: none;
     margin-bottom: 2rem;
     border-radius: 10px;
 }
+
+
 
 .forget-password {
     padding-bottom: 2rem;
@@ -88,6 +110,21 @@ html {
     background-image: url("/images/dark-girl.jpg");
 }
 
+.no-page {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
 .thankful {
     background-image: url("/images/thankful.jpg");
+}
+
+.thanks {
+    position: fixed;
+    top: 40%;
+    left: 55%;
+    color: #BF228A;
+    font-weight: bold;
+    font-size: 4rem;
 }
