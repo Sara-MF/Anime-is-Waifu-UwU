@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
 html {
     width: 100%;
     height: 100%;
@@ -65,8 +67,9 @@ a {
 }
 
 .title {
-    margin-top: 3rem;
-    margin-bottom: 7rem;
+    font-family: 'Aclonica';
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .input-login {
@@ -76,8 +79,6 @@ a {
     margin-bottom: 2rem;
     border-radius: 10px;
 }
-
-
 
 .forget-password {
     padding-bottom: 2rem;
@@ -104,6 +105,16 @@ a {
     background-image: url("/images/maid-library.jpg");
 }
 
+.list-container {
+    position: fixed;
+    top: 15%;
+    left: 5%;
+}
+
+.new-section:hover {
+    cursor: pointer;
+}
+
 /* Others */
 
 .not_found {
@@ -111,6 +122,7 @@ a {
 }
 
 .no-page {
+    font-family: 'Aclonica';
     text-align: center;
     color: white;
     font-size: 4rem;
@@ -123,8 +135,9 @@ a {
 .thanks {
     position: fixed;
     top: 40%;
-    left: 55%;
+    left: 53%;
     color: #BF228A;
+    font-family: 'Aclonica';
     font-weight: bold;
     font-size: 4rem;
 }
