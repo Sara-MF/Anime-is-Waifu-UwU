@@ -8,5 +8,19 @@
     <title>Anime is Waifu UwU</title>
 </head>
 <body>
+
+    <div class="list-container">
+        <div class="watching-list">
+            @include('components.list')
+    
+        </div>
+        
+        <div class="new-section">
+            <h4>+ Add new section</h4>
+        </div>
+    </div>
+    
+
+
 </body>
 </html>
