@@ -10,6 +10,11 @@
 <body>
 
     <div class="list-container">
+
+        <div class="search-anime">
+            <input type="text" placeholder="Buscar">
+        </div>
+
         <div class="watching-list">
             @include('components.list')
     
@@ -19,8 +24,6 @@
             <h4>+ Add new section</h4>
         </div>
     </div>
-    
-
 
 </body>
 </html>

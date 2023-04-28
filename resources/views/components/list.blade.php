@@ -1,5 +1,5 @@
 <div class=list-card>
-    <table class="table table-bordered">
+    <table class="table table-dark">
         <thead>
             <tr>
                 <th scope="col">Imagem</th>

@@ -27,3 +27,6 @@ Route::get('/completed', [ListController::class, 'completed']);
 // Other
 Route::get('/thanks', [OthersController::class, 'thankful']);
 Route::get('/notFound', [OthersController::class, 'notFound']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
