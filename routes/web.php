@@ -19,10 +19,19 @@ Route::get('/', function () {
     return view('login');
 });
 
-// List watching, completed, empty list
+// List
 Route::get('/empty', [ListController::class, 'empty']);
 Route::get('/watching', [ListController::class, 'watching']);
 Route::get('/completed', [ListController::class, 'completed']);
+
+// Login
+Route::get('/register', [LoginController::class, 'register']);
+Route::get('/forgotPassword', [LoginController::class, 'forgotPassword']);
+Route::get('/resetedPassword', [LoginController::class, 'resetedPassword']);
+
+// Profile
+Route::get('/editProfile', [ProfileController::class, 'editProfile']);
+Route::get('/changeStyle', [ProfileController::class, 'changeStyle']);
 
 // Other
 Route::get('/thanks', [OthersController::class, 'thankful']);
