@@ -11,9 +11,14 @@ class ProfileController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index() {
+    public function editProfile() {
         
-        return view("profile.myProfile");
+        return view("profile.editProfile");
+    }
+
+    public function changeStyle() {
+        
+        return view("profile.changeStyle");
     }
 
     /**

@@ -16,6 +16,21 @@ class LoginController extends Controller
         return view("login");
     }
 
+    public function register() {
+        
+        return view("login.register");
+    }
+
+    public function forgotPassword() {
+        
+        return view("login.forgotPassword");
+    }
+
+    public function resetedPassword() {
+        
+        return view("login.resetedPassword");
+    }
+
     /**
      * Show the form for creating a new resource.
      *
