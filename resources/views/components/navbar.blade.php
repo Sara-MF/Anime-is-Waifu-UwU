@@ -1,10 +1,10 @@
 <div class="nav">
-    <a href="/">Agradecimentos</a>
+    <h4><a href="/">Agradecimentos</a></h4>
 
-    <li>
-        <span>Listas</span>
+    <li class="dropdown">
+        <h4>Listas</h4>
     
-        <ul>
+        <ul class="dropdown-content">
             <li >
                 <a href="/">Watching</a>
             </li>
@@ -15,10 +15,10 @@
         </ul>
     </li>
 
-    <li>
-        <span>Perfil</span>
+    <li class="last-item dropdown">
+        <h4 class="dropdown">Perfil</h4>
     
-        <ul>
+        <ul class="dropdown-content">
             <li>
                 <a href="/">Edit Profile</a>
             </li>
