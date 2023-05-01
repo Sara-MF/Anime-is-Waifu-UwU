@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ListController;
 use App\Http\Controllers\OthersController;
 
@@ -16,7 +18,7 @@ use App\Http\Controllers\OthersController;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('login.index');
 });
 
 // List
