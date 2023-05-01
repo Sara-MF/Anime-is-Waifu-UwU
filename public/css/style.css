@@ -66,22 +66,35 @@ li {
     /* animation: changeBg 2s infinite; */
 }
 
+
 /* #mydiv{ width:143px; height:100px; } */
 /* 
 @keyframes changeBg {
-
+    
     0% {
         background-image: url("/images/summer-girl-ice-cream.jpg");
     }
-
+    
     50% {
         background-image: url("/images/summer-girl.jpg");
     }
-
+    
     100% {
         background-image: url("/images/summer-girl-ice-cream.jpg");
     }
 } */
+
+.forgotPassword_page {
+    background-image: url("/images/summer-beach-girl.jpg");
+}
+
+.register_page {
+    background-image: url("/images/anime-girl-summer.jpg");
+}
+
+.resetedPassword_page {
+    background-image: url("/images/maid-girl.jpg");
+}
 
 .login_card {
     background-color: rgb(233, 159, 225);
@@ -154,6 +167,16 @@ li {
 
 .new-section:hover {
     cursor: pointer;
+}
+
+/* Profile */
+
+.changeStyle_page {
+    background-image: url("/images/matsuri-hanabi.jpg");
+}
+
+.editProfile_page {
+    background-image: url("/images/butterfly-girl.jpg");
 }
 
 /* Others */
