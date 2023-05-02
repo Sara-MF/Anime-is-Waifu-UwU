@@ -6,11 +6,11 @@
     
         <ul class="dropdown-content">
             <li >
-                <a href="/">Watching</a>
+                <a href="{{ route("list.watching") }}">Watching</a>
             </li>
         
             <li>
-                <a href="/">Completed</a>
+                <a href="{{ route("list.completed") }}">Completed</a>
             </li>
         </ul>
     </li>
@@ -20,7 +20,7 @@
     
         <ul class="dropdown-content">
             <li>
-                <a href="/">Edit Profile</a>
+                <a href="{{ route("profile.editProfile") }}">Edit Profile</a>
             </li>
         
             <li>
