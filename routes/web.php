@@ -22,22 +22,22 @@ Route::get('/', function () {
 });
 
 // List
-Route::get('/empty', [ListController::class, 'empty']);
-Route::get('/watching', [ListController::class, 'watching']);
-Route::get('/completed', [ListController::class, 'completed']);
+Route::get('/empty', [ListController::class, 'empty'])->name("list.empty");
+Route::get('/watching', [ListController::class, 'watching'])->name("list.watching");
+Route::get('/completed', [ListController::class, 'completed'])->name("list.completed");
 
 // Login
-Route::get('/register', [LoginController::class, 'register']);
-Route::get('/forgotPassword', [LoginController::class, 'forgotPassword']);
-Route::get('/resetedPassword', [LoginController::class, 'resetedPassword']);
+Route::get('/register', [LoginController::class, 'register'])->name("login.register");
+Route::get('/forgotPassword', [LoginController::class, 'forgotPassword'])->name("login.forgotPassword");
+Route::get('/resetedPassword', [LoginController::class, 'resetedPassword'])->name("login.resetedPassword");
 
 // Profile
-Route::get('/editProfile', [ProfileController::class, 'editProfile']);
-Route::get('/changeStyle', [ProfileController::class, 'changeStyle']);
+Route::get('/editProfile', [ProfileController::class, 'editProfile'])->name("profile.editProfile");
+Route::get('/changeStyle', [ProfileController::class, 'changeStyle'])->name("profile.changeStyle");
 
 // Other
-Route::get('/thanks', [OthersController::class, 'thankful']);
-Route::get('/notFound', [OthersController::class, 'notFound']);
+Route::get('/thanks', [OthersController::class, 'thankful'])->name("thankful");
+Route::get('/notFound', [OthersController::class, 'notFound'])->name("notFound");
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
